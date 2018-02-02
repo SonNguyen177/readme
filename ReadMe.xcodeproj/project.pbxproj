@@ -7,23 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16A77945E7086ADFF80C271D /* Pods_ReadMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A023F0259A89F02C7668A7 /* Pods_ReadMe.framework */; };
 		C5458B2A1F85DDA100D384B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5458B291F85DDA100D384B7 /* AppDelegate.swift */; };
-		C5458B2C1F85DDA100D384B7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5458B2B1F85DDA100D384B7 /* FirstViewController.swift */; };
+		C5458B2C1F85DDA100D384B7 /* MainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5458B2B1F85DDA100D384B7 /* MainFeedViewController.swift */; };
 		C5458B2E1F85DDA100D384B7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5458B2D1F85DDA100D384B7 /* SecondViewController.swift */; };
 		C5458B311F85DDA100D384B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5458B2F1F85DDA100D384B7 /* Main.storyboard */; };
 		C5458B331F85DDA100D384B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5458B321F85DDA100D384B7 /* Assets.xcassets */; };
 		C5458B361F85DDA100D384B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5458B341F85DDA100D384B7 /* LaunchScreen.storyboard */; };
+		C59CFA5B1FECECF400D9BBD2 /* FeedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59CFA5A1FECECF400D9BBD2 /* FeedDataModel.swift */; };
+		C59CFA5D1FECFC2D00D9BBD2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59CFA5C1FECFC2D00D9BBD2 /* Extension.swift */; };
+		C59CFA611FECFCA500D9BBD2 /* PagingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59CFA601FECFCA500D9BBD2 /* PagingData.swift */; };
+		C59CFA631FECFE0000D9BBD2 /* FeedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59CFA621FECFE0000D9BBD2 /* FeedRequest.swift */; };
+		C59CFA661FED0B7F00D9BBD2 /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59CFA651FED0B7F00D9BBD2 /* FeedCollectionViewCell.swift */; };
+		C59CFA691FED154E00D9BBD2 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59CFA681FED154E00D9BBD2 /* FeedViewModel.swift */; };
+		C5C632141F9B3D4A0070B910 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C6321B1F9B3D4A0070B910 /* Bolts.framework */; };
+		C5C632151F9B3D4A0070B910 /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C6321C1F9B3D4A0070B910 /* FacebookCore.framework */; };
+		C5C632161F9B3D4A0070B910 /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C6321D1F9B3D4A0070B910 /* FacebookLogin.framework */; };
+		C5C632171F9B3D4A0070B910 /* FacebookShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C6321E1F9B3D4A0070B910 /* FacebookShare.framework */; };
+		C5C632181F9B3D4A0070B910 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C6321F1F9B3D4A0070B910 /* FBSDKCoreKit.framework */; };
+		C5C632191F9B3D4A0070B910 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C632201F9B3D4A0070B910 /* FBSDKLoginKit.framework */; };
+		C5C6321A1F9B3D4A0070B910 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C632211F9B3D4A0070B910 /* FBSDKShareKit.framework */; };
+		C5C632251F9B58810070B910 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C632241F9B58810070B910 /* LaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11A023F0259A89F02C7668A7 /* Pods_ReadMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReadMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		235717783CCFBCBB44A74D16 /* Pods-ReadMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReadMe/Pods-ReadMe.release.xcconfig"; sourceTree = "<group>"; };
 		C5458B261F85DDA100D384B7 /* ReadMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5458B291F85DDA100D384B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5458B2B1F85DDA100D384B7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C5458B2B1F85DDA100D384B7 /* MainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedViewController.swift; sourceTree = "<group>"; };
 		C5458B2D1F85DDA100D384B7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C5458B301F85DDA100D384B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5458B321F85DDA100D384B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5458B351F85DDA100D384B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5458B371F85DDA100D384B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59CFA5A1FECECF400D9BBD2 /* FeedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataModel.swift; sourceTree = "<group>"; };
+		C59CFA5C1FECFC2D00D9BBD2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C59CFA601FECFCA500D9BBD2 /* PagingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingData.swift; sourceTree = "<group>"; };
+		C59CFA621FECFE0000D9BBD2 /* FeedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRequest.swift; sourceTree = "<group>"; };
+		C59CFA651FED0B7F00D9BBD2 /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		C59CFA681FED154E00D9BBD2 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		C5C6321B1F9B3D4A0070B910 /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C6321C1F9B3D4A0070B910 /* FacebookCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FacebookCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C6321D1F9B3D4A0070B910 /* FacebookLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FacebookLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C6321E1F9B3D4A0070B910 /* FacebookShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FacebookShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C6321F1F9B3D4A0070B910 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C632201F9B3D4A0070B910 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C632211F9B3D4A0070B910 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C632231F9B51CC0070B910 /* ReadMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReadMe.entitlements; sourceTree = "<group>"; };
+		C5C632241F9B58810070B910 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		F8476A8F74FFA2F821152608 /* Pods-ReadMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReadMe/Pods-ReadMe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +64,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5C632141F9B3D4A0070B910 /* Bolts.framework in Frameworks */,
+				C5C632151F9B3D4A0070B910 /* FacebookCore.framework in Frameworks */,
+				C5C632161F9B3D4A0070B910 /* FacebookLogin.framework in Frameworks */,
+				C5C632171F9B3D4A0070B910 /* FacebookShare.framework in Frameworks */,
+				C5C632181F9B3D4A0070B910 /* FBSDKCoreKit.framework in Frameworks */,
+				C5C632191F9B3D4A0070B910 /* FBSDKLoginKit.framework in Frameworks */,
+				C5C6321A1F9B3D4A0070B910 /* FBSDKShareKit.framework in Frameworks */,
+				16A77945E7086ADFF80C271D /* Pods_ReadMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A107EEB2E0BF0187856CEC27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5C6321B1F9B3D4A0070B910 /* Bolts.framework */,
+				C5C6321C1F9B3D4A0070B910 /* FacebookCore.framework */,
+				C5C6321D1F9B3D4A0070B910 /* FacebookLogin.framework */,
+				C5C6321E1F9B3D4A0070B910 /* FacebookShare.framework */,
+				C5C6321F1F9B3D4A0070B910 /* FBSDKCoreKit.framework */,
+				C5C632201F9B3D4A0070B910 /* FBSDKLoginKit.framework */,
+				C5C632211F9B3D4A0070B910 /* FBSDKShareKit.framework */,
+				11A023F0259A89F02C7668A7 /* Pods_ReadMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A61C4C6ED255B36236293E1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8476A8F74FFA2F821152608 /* Pods-ReadMe.debug.xcconfig */,
+				235717783CCFBCBB44A74D16 /* Pods-ReadMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C5458B1D1F85DDA100D384B7 = {
 			isa = PBXGroup;
 			children = (
 				C5458B281F85DDA100D384B7 /* ReadMe */,
 				C5458B271F85DDA100D384B7 /* Products */,
+				A61C4C6ED255B36236293E1D /* Pods */,
+				A107EEB2E0BF0187856CEC27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +123,47 @@
 		C5458B281F85DDA100D384B7 /* ReadMe */ = {
 			isa = PBXGroup;
 			children = (
+				C59CFA671FED153B00D9BBD2 /* ViewModel */,
+				C59CFA641FED0B5800D9BBD2 /* UI */,
+				C59CFA591FECECC300D9BBD2 /* Model */,
+				C5C632231F9B51CC0070B910 /* ReadMe.entitlements */,
 				C5458B291F85DDA100D384B7 /* AppDelegate.swift */,
-				C5458B2B1F85DDA100D384B7 /* FirstViewController.swift */,
+				C5458B2B1F85DDA100D384B7 /* MainFeedViewController.swift */,
 				C5458B2D1F85DDA100D384B7 /* SecondViewController.swift */,
+				C5C632241F9B58810070B910 /* LaunchViewController.swift */,
 				C5458B2F1F85DDA100D384B7 /* Main.storyboard */,
 				C5458B321F85DDA100D384B7 /* Assets.xcassets */,
 				C5458B341F85DDA100D384B7 /* LaunchScreen.storyboard */,
 				C5458B371F85DDA100D384B7 /* Info.plist */,
+				C59CFA5C1FECFC2D00D9BBD2 /* Extension.swift */,
 			);
 			path = ReadMe;
+			sourceTree = "<group>";
+		};
+		C59CFA591FECECC300D9BBD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C59CFA5A1FECECF400D9BBD2 /* FeedDataModel.swift */,
+				C59CFA601FECFCA500D9BBD2 /* PagingData.swift */,
+				C59CFA621FECFE0000D9BBD2 /* FeedRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C59CFA641FED0B5800D9BBD2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C59CFA651FED0B7F00D9BBD2 /* FeedCollectionViewCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C59CFA671FED153B00D9BBD2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C59CFA681FED154E00D9BBD2 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5458B3A1F85DDA100D384B7 /* Build configuration list for PBXNativeTarget "ReadMe" */;
 			buildPhases = (
+				DD1F8A4056329B162A19611E /* [CP] Check Pods Manifest.lock */,
 				C5458B221F85DDA100D384B7 /* Sources */,
 				C5458B231F85DDA100D384B7 /* Frameworks */,
 				C5458B241F85DDA100D384B7 /* Resources */,
+				6E76094A2CAE47D9CDBE1643 /* [CP] Embed Pods Frameworks */,
+				53D09BFEB3569EF3A2CC97E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +202,11 @@
 					C5458B251F85DDA100D384B7 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -134,14 +241,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53D09BFEB3569EF3A2CC97E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReadMe/Pods-ReadMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E76094A2CAE47D9CDBE1643 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReadMe/Pods-ReadMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReadMe/Pods-ReadMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD1F8A4056329B162A19611E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReadMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5458B221F85DDA100D384B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59CFA691FED154E00D9BBD2 /* FeedViewModel.swift in Sources */,
 				C5458B2E1F85DDA100D384B7 /* SecondViewController.swift in Sources */,
+				C59CFA631FECFE0000D9BBD2 /* FeedRequest.swift in Sources */,
 				C5458B2A1F85DDA100D384B7 /* AppDelegate.swift in Sources */,
-				C5458B2C1F85DDA100D384B7 /* FirstViewController.swift in Sources */,
+				C59CFA611FECFCA500D9BBD2 /* PagingData.swift in Sources */,
+				C5458B2C1F85DDA100D384B7 /* MainFeedViewController.swift in Sources */,
+				C59CFA661FED0B7F00D9BBD2 /* FeedCollectionViewCell.swift in Sources */,
+				C59CFA5D1FECFC2D00D9BBD2 /* Extension.swift in Sources */,
+				C5C632251F9B58810070B910 /* LaunchViewController.swift in Sources */,
+				C59CFA5B1FECECF400D9BBD2 /* FeedDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,12 +401,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -266,20 +453,35 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALIDATE_PRODUCT = YES;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};
 		C5458B3B1F85DDA100D384B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8476A8F74FFA2F821152608 /* Pods-ReadMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReadMe/ReadMe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FJQDJQRDP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Bolts\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKCoreKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKLoginKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKShareKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookLogin\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookShare\"",
+				);
 				INFOPLIST_FILE = ReadMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ole.ReadMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,10 +492,24 @@
 		};
 		C5458B3C1F85DDA100D384B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235717783CCFBCBB44A74D16 /* Pods-ReadMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReadMe/ReadMe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FJQDJQRDP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Bolts\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKCoreKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKLoginKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKShareKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookLogin\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookShare\"",
+				);
 				INFOPLIST_FILE = ReadMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ole.ReadMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
